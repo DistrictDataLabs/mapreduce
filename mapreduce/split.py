@@ -59,6 +59,8 @@ class Splitter(object):
         Splits an input file into multiple chunks based on an even number of
         chunks (the default in this case). It writes the given chunks to
         split files contained in the outdir.
+
+        TODO: clean up and make better
         """
 
         # Compute the block size based on the # of chunks

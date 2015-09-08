@@ -43,4 +43,14 @@ class Job(object):
         self.redtasks = reduce_tasks
         self.options  = options
 
-    
+    def execute_mapper(self, idx):
+        """
+        Load a mapper's split and apply the mapper to it.
+        """
+        pass
+
+    def execute_reducer(self, idx):
+        """
+        Load a reducer's split and apply reducer to it.
+        """
+        pass
